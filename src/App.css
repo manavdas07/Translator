@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App_container{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(195, 149, 149);
+}
+.a_header{
+  height: 15vh;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+.a_body{
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a_body_1,.a_body_2{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.left_container,.right_container{
+  height: 95%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.left_header,.right_header{
+    height: 10%;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left_body,.right_body{
+   height: 85%;
+   width: 95%;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.left_body input,.right_body input{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 15px;
+    font-size: 35px;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 25px;
+    border: 2px solid grey;
+    position: relative;
+    background-color: rgb(55, 52, 52);
+}
+.left_header label,.right_header label{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left_header select,.right_header select{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: gray;
+}
+.trbtn{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 96, 144);
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
